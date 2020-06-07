@@ -1,0 +1,47 @@
+// var num1 = +prompt("Assign a value to a")
+// document.write("Result: <br>")
+// document.write("The value of a is: " + num1 + "<br>")
+// document.write(".............................. <br> <br>")
+// document.write("The value of ++a is: " + ++num1 + "<br>")
+// document.write("Now the value of a is: " + num1 + "<br> <br> <br> <br>")
+// document.write("The value of a++ is: " + num1++ + "<br> ")
+// document.write("Now the value of a is: " + num1 + "<br> <br> <br> <br>")
+// document.write("The value of --a is: " +  --num1 + "<br>")
+// document.write("Now the value of a is: " + num1 + "<br> <br> <br> <br>")
+// document.write("The value of a-- is: " + num1-- + "<br>")
+// document.write("Now the value of a is: " + num1 + "<br> <br> <br> <br>")
+
+// var a = 6, b = 7;
+// var result = --a - --b + ++b + b--;
+// document.write("a is 6 <br>")
+// document.write("b is 7 <br>")
+// document.write("result is " + result)
+
+// var name = prompt("What is your name")
+// alert("Welcome to my Website, " + name)
+
+// var multiplyNum = prompt("Enter a number " , 5)
+// var multiplier = 0;
+// document.write(multiplyNum + "x" + ++multiplier + " = " + multiplyNum * multiplier + "<br>")
+// document.write(multiplyNum + "x" + ++multiplier + " = " + multiplyNum * multiplier + "<br>")
+// document.write(multiplyNum + "x" + ++multiplier + " = " + multiplyNum * multiplier + "<br>")
+// document.write(multiplyNum + "x" + ++multiplier + " = " + multiplyNum * multiplier + "<br>")
+// document.write(multiplyNum + "x" + ++multiplier + " = " + multiplyNum * multiplier + "<br>")
+// document.write(multiplyNum + "x" + ++multiplier + " = " + multiplyNum * multiplier + "<br>")
+// document.write(multiplyNum + "x" + ++multiplier + " = " + multiplyNum * multiplier + "<br>")
+// document.write(multiplyNum + "x" + ++multiplier + " = " + multiplyNum * multiplier + "<br>")
+// document.write(multiplyNum + "x" + ++multiplier + " = " + multiplyNum * multiplier + "<br>")
+// document.write(multiplyNum + "x" + ++multiplier + " = " + multiplyNum * multiplier + "<br>")
+// document.write(multiplyNum + "x" + ++multiplier + " = " + multiplyNum * multiplier + "<br>")
+// document.write(multiplyNum + "x" + ++multiplier + " = " + multiplyNum * multiplier + "<br>")
+
+var sub1 = prompt("Enter a first subject")
+var sub2 = prompt("Enter a second subject")
+var sub3 = prompt("Enter a third subject")
+var totalMarks = 100;
+var sub1Marks = prompt("How many much did you score in " + sub1)
+var sub2Marks = prompt("How many much did you score in " + sub2)
+var sub3Marks = prompt("How many much did you score in " + sub3)
+document.write("<table> <tr> <th> Subject </th> <th> Total Marks  </th> <th> Marks Obtained</th> <th> Percentage </th></tr>")
+document.write("<tr> <td>" + sub1 + "</td> <td>" + totalMarks + "</td> <td>" + sub1Marks + "</td> <td>" + totalMarks/sub1Marks * 100 + " % </td></tr>")
+document.write("<tr> <td>" + sub2 + "</td> <td>" + totalMarks + "</td> <td>" + sub2Marks + "</td> <td>" + totalMarks/sub2Marks * 100 + " % </td></tr>")

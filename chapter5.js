@@ -11,7 +11,7 @@
 // + num1 + " divided by " + num2 + " is " + result4 + "." + "<br/>"
 //  + "The remainder of " + num1 + " and " + num2 + " after division is " + result5)
 
-// var num= 
+// var num = 
 // document.write ("Value after variable declaration is " + num);
 // var initialValue = +prompt("Add an initial value");
 // document.write ("<br />" + "Initial value: " + initialValue  );

@@ -17,6 +17,18 @@
 // alert(certification)
 
 var email = "mariamahmad10@outlook.com"
-alert(email)
+// alert(email)
 
-alert(pizza)
+alert("PIZZA\nPIZZ\nPIZ\nPI\nP")
+
+alert("My email address is " + email)
+
+var book = "A smarter way to learn Javascript."
+
+alert("I am trying to learn from the book " + book)
+
+document.write("Yah! I can write HTML content through JavaScript")
+
+var string = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
+
+alert(string)
