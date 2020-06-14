@@ -1,10 +1,3 @@
-var literal = ["",""]
-var object = [ , ]
-var strings = ["A", "B", "C"]
-var numbers = [1, 2, 3]
-var boolean = [true, false]
-var mixed = ["A", 1, false]
-
 // var qualifications = ["SSC" , "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil.",  "PhD"];
 // var count = "0"
 // document.write(++count + ")" + qualifications[0] + "<br>")
@@ -23,21 +16,22 @@ var mixed = ["A", 1, false]
 // document.write("Score of John is " + score[1] + ". Percentage: " + score[1]/ 500 * 100 + "%<br>" )
 // document.write("Score of Tony is " + score[2] + ". Percentage: " + score[2]/ 500 * 100 + "%<br>" )
 
-var colours = []
-colours[0] = prompt("What do you want the first colour to be")
-document.write("<br>Now the first colour in the array is: " + colours)
-colours[3] = prompt("<br>What colour do you want to add to the end of the array")
-document.write("<br>Now The last colour in your array is: " + colours[3])
-colours[1] = prompt("<br>Add another colour to the beginning of the array")
-colours[2] = prompt("<br>Add another colour to the beginning of the array")
-document.write("<br>Now your array consists of " + colours);
-colours.shift();
-document.write("<br>after removing the first element in the array you are left with the array " + colours)
-colours.splice(2)
-document.write(colours)
-var num1 = +prompt("<br>At which index do you want to add a colour at")
-var colour1 = prompt("<br>And what colour do you want to add")
-document.write(colours)
+// var colours = []
+// colours[0] = prompt("What do you want the first colour to be")
+// alert("Now the first colour in the array is: " + colours[0])
+// colours[3] = prompt("What colour do you want to add to the end of the array")
+// alert("Now The last colour in your array is: " + colours[3])
+// colours[1] = prompt("Add another colour to the beginning of the array")
+// colours[2] = prompt("Add another colour to the beginning of the array")
+// alert("Now your array consists of " + colours);
+// colours.shift();
+// alert("after removing the first element in the array you are left with the array " + colours)
+// colours.splice(2)
+// alert(colours)
+// var num1 = +prompt("At which index do you want to add a colour at")
+// var colour1 = prompt("And what colour do you want to add")
+// colours[num1] = colour1
+// alert(colours)
 
 // var scores2 = [320,230,480,120]
 // scores2.sort
@@ -54,11 +48,11 @@ document.write(colours)
 // document.write("Array: <br>" + cat )
 // document.write("<br> <br> <br> <br> String: <br> " + cat.join(' '))
 
-// var devices = [""]
-// devices[0] = "keyboard"
-// devices[1] = "mouse"
-// devices[2] = "printer" 
-// devices[3] = "monitor"
+var devices = [""]
+devices[0] = "keyboard"
+devices[1] = "mouse"
+devices[2] = "printer" 
+devices[3] = "monitor"
 // document.write("Devices: <br>" + devices + "<br> <br> <br>")
 // document.write("Out: <br>" + devices[0])
 // document.write("Out: <br>" + devices[1])
