@@ -1,70 +1,78 @@
-// var qualifications = ["SSC" , "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil.",  "PhD"];
-// var count = "0"
-// document.write(++count + ")" + qualifications[0] + "<br>")
-// document.write(++count + ")" + qualifications[1] + "<br>")
-// document.write(++count + ")" + qualifications[2] + "<br>")
-// document.write(++count + ")" + qualifications[3] + "<br>")
-// document.write(++count + ")" + qualifications[4] + "<br>")
-// document.write(++count + ")" + qualifications[5] + "<br>")
-// document.write(++count + ")" + qualifications[6] + "<br>")
-// document.write(++count + ")" + qualifications[7] + "<br>")
-// document.write("<br><br><br><br><br><br><br>")
+// var multi = [[], []  ];
+// multi[0] = [0 , 1 , 2 , 3]
+// multi[1] = [1, 0, 1, 2]
+// multi[2] = [2, 1, 0, 1]
+// document.write(multi[0].join(' ') + "<br>")
+// document.write(multi[1].join(' ') + "<br>")
+// document.write(multi[2].join(' ') + "<br>")
 
-// var students = ["Michael", "John", "Tony"];
-// var score = ["320", "230", "480"];
-// document.write("Score of Michael is " + score[0] + ". Percentage: " + score[0]/ 500 * 100 + "%<br>" )
-// document.write("Score of John is " + score[1] + ". Percentage: " + score[1]/ 500 * 100 + "%<br>" )
-// document.write("Score of Tony is " + score[2] + ". Percentage: " + score[2]/ 500 * 100 + "%<br>" )
+// for(i = 1; i <= 10; ++i){
+//     document.write(i + "<br>")
+// }
 
-// var colours = []
-// colours[0] = prompt("What do you want the first colour to be")
-// alert("Now the first colour in the array is: " + colours[0])
-// colours[3] = prompt("What colour do you want to add to the end of the array")
-// alert("Now The last colour in your array is: " + colours[3])
-// colours[1] = prompt("Add another colour to the beginning of the array")
-// colours[2] = prompt("Add another colour to the beginning of the array")
-// alert("Now your array consists of " + colours);
-// colours.shift();
-// alert("after removing the first element in the array you are left with the array " + colours)
-// colours.splice(2)
-// alert(colours)
-// var num1 = +prompt("At which index do you want to add a colour at")
-// var colour1 = prompt("And what colour do you want to add")
-// colours[num1] = colour1
-// alert(colours)
+// var num1 = +prompt("Enter a number to show its multiplication table")
+// var num2 = +prompt("Enter length multiplication table")
+// document.write("Multiplication table of " + num1)
+// document.write("<br> Length: " + num2 + "<br> <br> <br>")
+// var count = 1;
+// for(i = 1; i <= num2; ++i){
+//     document.write(num1 + " X " + count + " = " + num1 * count++ + "<br>")
+// }
 
-// var scores2 = [320,230,480,120]
-// scores2.sort
-// alert(scores2)
-// document.write("Scores of Students : " + scores2 + "<br>")
-// document.write("Ordered Scores of Students : " + scores2.sort())
+// var fruits = ["apple", "banana", "mango", "orange","strawberry"]
+// for(i = 0; i <=4; ++i){
+//     document.write(fruits[i] + "<br>")
+// }
+// document.write("<br> <Br>")
+// for(i = 0; i <=4; ++i){
+//     document.write("Element at index " + i + " is "  + fruits[i] + "<br>")
+// }
 
-// var cities = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"]
-// var selectedCities = [cities[1], cities[2], cities[4]]
-// document.write("Cities list: <br>" + cities )
-// document.write("<br> <br> <br> <br> Selected cities list: <br> " + selectedCities)
 
-// var cat = ["This", "is", "my", "cat"]
-// document.write("Array: <br>" + cat )
-// document.write("<br> <br> <br> <br> String: <br> " + cat.join(' '))
+// document.write("<b>Counting:</b> <br>")
+// for(var i=1; i <= 15; ++i){
+//     document.write( i + ",")
+// }
+// document.write("<br><br><b>Reverse:</b> <br>")
+// for(var i = 10; i > 1; i -= 1){
+//     document.write( i + ",")
+// } 
+// document.write("<br><br><b>Even: </b><br>")
+// for(var i=0 ; i <= 20; i += 2){
+//     document.write( i + ",")
+// }
+// document.write("<br><br><b>Odd: </b><br>")
+// for(var i=1 ; i <= 19; i += 2){
+//     document.write( i + ",")
+// }
+// document.write("<br><br><b>Series:</b> <br>")
+// for(var i=2 ; i <= 20; i += 2){
+//     document.write( i + "k,")
+// }
 
-var devices = [""]
-devices[0] = "keyboard"
-devices[1] = "mouse"
-devices[2] = "printer" 
-devices[3] = "monitor"
-// document.write("Devices: <br>" + devices + "<br> <br> <br>")
-// document.write("Out: <br>" + devices[0])
-// document.write("Out: <br>" + devices[1])
-// document.write("Out: <br>" + devices[2])
-// document.write("Out: <br>" + devices[3])
+// var items = ["cake", "apple pie", "cookie", "chips","patties"]
+// var item = prompt("Welcome to ABC Bakery. What do you want to order")
+// for(var i=0; i < items.length; i++){
+//       if(items[i] === item){
+//              alert(items[i] + " is available at index " + i + " in our bakery")
+//              break 
+//       }
+//       else{
+//            alert("Sorry, your item is not available")
+//            break
+//       }
+//     }
+// var numbers = [ 24, 53, 78, 91, 12 ]
+// var largest = 0;
 
-// document.write("Devices: <br>" + devices + "<br> <br> <br>")
-// document.write("Out: <br>" + devices.pop() + "<br>")
-// document.write("Out: <br>" + devices.pop() + "<br>")
-// document.write("Out: <br>" + devices.pop() + "<br>")
-// document.write("Out: <br>" + devices.pop() + "<br>")
+// for(i=0; i<=largest; i++){
+//     if (numbers[i]>largest){
+//         largest = numbers[i];
+//     }
+    
+// }
+// document.write("Array items: " + numbers + "<br>")
+// document.write("The largest number is " + largest)
 
-var phones = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"]
-alert(phones)
-document.write("<select><option>"+ phones[0]+ "</option><option>"+phones[1]+"</option><option>"+phones[2]+"</option><option>"+phones[3]+"</option><option>"+phones[4]+"</option><option>"+phones[5]+"</option></select>")
+// for(var i=5 ; i <= 100; i += 5){
+//     document.write( i + ", ")}
