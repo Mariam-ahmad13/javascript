@@ -1,11 +1,21 @@
 var character = prompt("Enter a character")
 
-if(character === String.fromCharCode(65)|| String.fromCharCode(90)){
-    alert("It's a capital letter")
-}
+var myPromopt = prompt("Enter any Number/AlphaSbet & we'll tell you what it is?")
+var pos = 0 
+var chngAscii=myPromopt.codePointAt(pos)
 
-if(character ===  String.fromCharCode(97) ||  String.fromCharCode(122)){
-    alert("It's a loewr case letter")
+if (chngAscii >=65 && chngAscii <= 90  ){
+    document.write("<h1>" +"You Enter the Capital Letter " + myPromopt + " whose ASCII code is "+ chngAscii + "</h1>")
+}
+else if(chngAscii >=97  && chngAscii <= 122 ){
+    document.write("<h1>" +"You Enter the Small Letter " + myPromopt+ " whose ASCII code is "+ chngAscii + "</h1>")
+}
+else if(chngAscii >=48 && chngAscii <= 57 ){
+    document.write("<h1>" +"You Enter the Number " + myPromopt+ " whose ASCII code is "+ chngAscii + "</h1>")
+
+}
+else{
+    document.write("<h1>"+ "You may enter something wrong "+ " whose ASCII code is "+ chngAscii + "</h1>")
 }
    
 

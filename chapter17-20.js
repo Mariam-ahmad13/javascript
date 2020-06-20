@@ -50,18 +50,18 @@
 //     document.write( i + "k,")
 // }
 
-// var items = ["cake", "apple pie", "cookie", "chips","patties"]
-// var item = prompt("Welcome to ABC Bakery. What do you want to order")
-// for(var i=0; i < items.length; i++){
-//       if(items[i] === item){
-//              alert(items[i] + " is available at index " + i + " in our bakery")
-//              break 
-//       }
-//       else{
-//            alert("Sorry, your item is not available")
-//            break
-//       }
-//     }
+var items = ["cake", "apple pie", "cookie", "chips","patties"]
+var item = prompt("Welcome to ABC Bakery. What do you want to order")
+for(var i=0; i < items.length; i++){
+      if(items[i] === item){
+             alert(items[i] + " is available at index " + i + " in our bakery")
+             break 
+      }
+      else{
+           alert("Sorry, your item is not available")
+           break
+      }
+    }
 // var numbers = [ 24, 53, 78, 91, 12 ]
 // var largest = 0;
 
