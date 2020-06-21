@@ -70,31 +70,12 @@
 // document.write("Result: " + newNum)
 
 // Question 13:
-// var username = prompt("Enter your username.")
-
-// for(var i = 0; i < username.length; i++){
-//     if(username.slice(i ) === String.fromCharCode(33)){
-//      alert("Enter a valid password")
-//     }
-// }
-
-// for(var i = 0; i < username.length; i++){
-//     if(username.slice(i ) === String.fromCharCode(44)){
-//      alert("Enter a valid password")
-//     }
-// }
-
-// for(var i = 0; i < username.length; i++){
-//     if(username.slice(i ) === String.fromCharCode(46)){
-//      alert("Enter a valid password")
-//     }
-// }
-
-// for(var i = 0; i < username.length; i++){
-//     if(username.slice(i ) === String.fromCharCode(64)){
-//      alert("Enter a valid password")
-//     }
-// }
+var username = prompt("Enter a username.")
+var pos = 0 
+var chngAscii= username.codePointAt(pos)
+if((chngAscii === 33 )||chngAscii === 44 || chngAscii === 46 || chngAscii === 64 ){
+alert("Please enter a valid username")
+}
 
 // Question 14:
 // var items = ["cake", "apple pie", "cookie", "chips","patties"]
