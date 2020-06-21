@@ -50,7 +50,7 @@
 // calculator()
 
 // Question 5:
-// function sqaured () {
+// function squared () {
 //     var num = +prompt("Enter a number")
 //     var squared = num * num
 //     alert(num + " squared is " + squared)
@@ -68,3 +68,25 @@
 // }
 
 // counting()
+
+
+// Question 8: 
+// function hypotenuse(base,perpindicular){
+//     return base + perpindicular;
+// }
+// function square(){
+//     var squared = hypotenuse(3*3, 4*4)
+//     return Math.sqrt(squared)
+// }
+
+// document.write(square())
+
+// Question 10:
+function palindrome () {
+     var reverse = "eye".reverse
+     if("eye"  === reverse){
+         document.write("It is a palindrome")
+     }
+}
+
+palindrome()
