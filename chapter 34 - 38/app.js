@@ -23,39 +23,38 @@
 // sum()
 
 // Question 4:
-// function calculator() {
-//     var firstNum = +prompt("Enter a number");
-// var secondNum = +prompt("Enter another number");
-// var operator = prompt("Enter an operator");
+// function calculator(first,second,operator) {
 // if(operator === "+"){
-//            var result1 = firstNum + secondNum
-//            document.write(firstNum + " " + operator + " " + secondNum + " = " + result1);
+//            var result1 = first + second
+//            return first + " " + operator + " " + second + " = " + result1
 // }
 
 // if(operator === "-"){
-//     var result2 = firstNum - secondNum
-//     document.write(firstNum + " " + operator + " " + secondNum + " = " + result2);
+//     var result2 = first - second
+//     return first + " " + operator + " " + second + " = " + result2
 // }
 
 // if(operator === "*"){
-//     var result3 = firstNum * secondNum
-//     document.write(firstNum + " " + operator + " " + secondNum + " = " + result3);
+//     var result3 = first * second
+//     return first + " " + operator + " " + second + " = " + result3;
 // }
 
 // if(operator === "/"){
-//     var result4 = firstNum / secondNum
-//     document.write(firstNum + " " + operator + " " + secondNum + " = " + result4);
+//     var result4 = first / second
+//     return first + " " + operator + " " + second + " = " + result4;
 // }
 // }
-// calculator()
+// var firstNum = +prompt("Enter a number");
+// var secondNum = +prompt("Enter another number");
+// var operator = prompt("Enter an operator");
+// document.write(calculator(firstNum,secondNum,operator))
 
 // Question 5:
-// function squared () {
-//     var num = +prompt("Enter a number")
+// function squared (num) {
 //     var squared = num * num
 //     alert(num + " squared is " + squared)
 // }
-// sqaured()
+// sqaured(5)
 
 // Question 6:
 // var num  = +prompt("Enter a number")
@@ -78,15 +77,53 @@
 //     var squared = hypotenuse(3*3, 4*4)
 //     return Math.sqrt(squared)
 // }
-
 // document.write(square())
 
-// Question 10:
-function palindrome () {
-     var reverse = "eye".reverse
-     if("eye"  === reverse){
-         document.write("It is a palindrome")
-     }
-}
+// Question 9:
+// function area(w,h){
+//     return w * h;
+// }
+// var width = 34;
+// var height = 50;
+// console.log(area(20,3))
+// console.log(area(width,height))
 
-palindrome()
+// Question 10:
+// function palindrome(str) {
+//   var length = str.length;
+//      for ( var i = 0; i < length; i++ ) {
+//         if (str[i] === str[length - 1 - i]) {
+//             return true;
+//         }
+//     }
+//   return false;
+// }
+// console.log(palindrome("eye"))
+
+// Question 11:
+// function uppercase(str)
+// {
+//   var array1 = str.split(' ');
+//   var newarray1 = [];  
+//   for(var x = 0; x < array1.length; x++){
+//       newarray1.push(array1[x].charAt(0).toUpperCase()+array1[x].slice(1));
+//   }
+//   return newarray1.join(' ');
+// }
+// document.write(uppercase("the quick brown fox"));
+
+// Question 12:
+
+function longestWord(string) {
+    var str = string.split(" ");
+    var longest = 0;
+    var word = null;
+    for (var i = 0; i < str.length; i++) {
+        if (longest < str[i].length) {
+            longest = str[i].length;
+            word = str[i];
+        }
+    }
+    return word;
+}
+console.log(longestWord('Web Development Tutorial'));

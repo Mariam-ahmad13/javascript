@@ -43,9 +43,9 @@
 // Question 9:
 // var value = "472"
 // document.write("Value: 472 <br>")
-// document.write("Type: string <br>")
+// document.write("Type:" + typeof value +"<br>")
 // document.write("Value: " + parseInt(value) + "<br>")
-// document.write("Type: number")
+// document.write("Type:" + typeof parseInt(value))
 
 // Question 10:
 // var lowerCase = "peanuts";
