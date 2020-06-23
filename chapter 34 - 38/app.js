@@ -113,17 +113,31 @@
 // document.write(uppercase("the quick brown fox"));
 
 // Question 12:
+// function longestWord(string) {
+//     var str = string.split(" ");
+//     var longest = 0;
+//     var word = null;
+//     for (var i = 0; i < str.length; i++) {
+//         if (longest < str[i].length) {
+//             longest = str[i].length;
+//             word = str[i];
+//         }
+//     }
+//     return word;
+// }
+// console.log(longestWord('Web Development Tutorial'));
 
-function longestWord(string) {
-    var str = string.split(" ");
-    var longest = 0;
-    var word = null;
-    for (var i = 0; i < str.length; i++) {
-        if (longest < str[i].length) {
-            longest = str[i].length;
-            word = str[i];
-        }
-    }
-    return word;
+// Question 14:
+function calcCircumference(r) {
+           var circumference =  2 * 3.14 * r;
+           return ("The circumference is " + circumference)
 }
-console.log(longestWord('Web Development Tutorial'));
+
+
+function calcArea(r){
+            var area = 3.14 * (r *r)
+            return ("The area is " + area)
+}
+
+console.log(calcCircumference(3))
+console.log(calcArea(4))
