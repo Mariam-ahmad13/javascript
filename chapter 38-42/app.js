@@ -49,15 +49,25 @@
 // alert(percentage())
 
 // Question 5:
-function indexOf(){
-    var letter = "f";
-    var string = "The quick brown fox jumped over the lazy dog";
-    letter.toLowerCase;
-     for(var i = 0; i < string.length; i++){
-         if(letter === string[i]){
-            alert("indexOf is " + i)
-            break;
-         }
-     }
+// function indexOf(){
+//     var letter = "f";
+//     var string = "The quick brown fox jumped over the lazy dog";
+//     letter.toLowerCase;
+//      for(var i = 0; i < string.length; i++){
+//          if(letter === string[i]){
+//             alert("indexOf is " + i)
+//             break;
+//          }
+//      }
+// }
+// indexOf()
+
+// Question 6:
+function deleteVowels(){
+    var string = "Lorem ipsum dolor sit amet consectetur"
+    for(var i = 0; i < string.length; i++){
+        if(string[i] === "a" || "e" || "i" || "o" || "u"){
+            
+        }
+    }
 }
-indexOf()
