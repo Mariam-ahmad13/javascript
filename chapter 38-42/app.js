@@ -50,10 +50,11 @@
 
 // Question 5:
 function indexOf(){
-    var letter = "h"
-    var string = "The quick brown fox jumped over the lazy dog"
-     for(i = 0; i <= string.length; i++){
-         if(letter = string[i]){
+    var letter = "f";
+    var string = "The quick brown fox jumped over the lazy dog";
+    letter.toLowerCase;
+     for(var i = 0; i < string.length; i++){
+         if(letter === string[i]){
             alert("indexOf is " + i)
             break;
          }
