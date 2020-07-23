@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    Task 1
+    <form action="" id="form" onsubmit = "getFormValues()">
+        <label>name</label><input type="name" id="name">
+        <br>
+        <label>password</label><input type="password" id="pass">
+        <br>
+        <label>Date of birth</label><input id="DOB">
+        <br>
+        <label>email</label><input id = "email">
+        <br>
+        <button type="submit" onclick="submit()">Submit</button>
+    </form>
+
+    <!-- Task 2: -->
+      <h3>Product details:</h3>
+        <ul id="text">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Pellentesque interdum odio id ornare fringilla.</li>
+        </ul>
+        <a href="#" onclick="readMore()" id="anchor">Read More</a>
+
+</body>
+<script src="app.js"></script>
+</html>
