@@ -23,22 +23,40 @@
 // }
 
 // Question 4:
-function mainFunction(subjects){
-    var maths = 90;
-    var english = 85;
-    var science = 87;
-    var subjects = [maths,english,science]
-    return subjects
-}
+// function mainFunction(subjects){
+//     var maths = 90;
+//     var english = 85;
+//     var science = 87;
+//     var subjects = [maths,english,science]
+//     return subjects
+// }
 
-function average(subjects){
-    var nums = mainFunction()
-    subjects = mainFunction()
-    var average = subjects[0] + subjects[1] + subjects[2] 
-   return average / 3
-}
+// function average(average){
+//     var nums = mainFunction()
+//     subjects = mainFunction()
+//     var average = subjects[0] + subjects[1] + subjects[2] 
+//    return average / 3
+// }
 
-function percentage(){
-    
+// function percentage(){
+//     var marks = mainFunction()
+//     var maths = marks[0] + "%"
+//     var english = marks[1] + "%"
+//     var science = marks[2] + "%"
+//     marks = [maths,english,science]
+//     return marks
+// }
+// alert(percentage())
+
+// Question 5:
+function indexOf(){
+    var letter = "h"
+    var string = "The quick brown fox jumped over the lazy dog"
+     for(i = 0; i <= string.length; i++){
+         if(letter = string[i]){
+            alert("indexOf is " + i)
+            break;
+         }
+     }
 }
-alert(average())
+indexOf()
